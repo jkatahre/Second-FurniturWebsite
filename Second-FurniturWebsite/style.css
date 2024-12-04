@@ -1,0 +1,655 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first_div {
+    display: flex;
+    justify-content: center;
+    background-color: #ffd166;
+    padding: 8px;
+}
+
+.second_div {
+
+    border-bottom: 0.01px solid rgb(57 52 52 / 18%);
+}
+
+.svg1 {
+    height: 12px;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px 121px;
+}
+
+.ul ul li {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+.ul ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.ul ul li span {
+    padding: 0px 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+.nav_ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 0px 0px 60px;
+}
+
+.nav_ul li {
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 0.1px solid #00000026;
+}
+
+.input {
+    padding: 0px 65px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1px solid rgba(124, 114, 114, 0.259);
+
+}
+
+.product ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 12px;
+    list-style: none;
+}
+
+.product ul li {
+    padding: 0px 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.items {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0px 40px 0px 40px;
+}
+
+.items img {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 41px 0px 0px;
+}
+
+.item1 img {
+    display: flex;
+    padding: 12px;
+    height: 60px;
+}
+
+.item1>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 34px;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+}
+
+.item1 ul {
+    display: flex;
+    list-style: none;
+    padding: 12px;
+    justify-content: center;
+}
+
+.item1 ul li span {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 .ul1 li {
+    padding: 0px 20px;
+}
+
+.item1 .ul2 li {
+    padding: 0px 28px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 34px;
+    margin: 46px;
+}
+
+.item2>span {
+    display: flex;
+    justify-content: center;
+    font-family: none;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+}
+
+.dives {
+
+    margin: 70px;
+}
+
+.item2 div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_img {
+    margin: 15px;
+    width: 31.4vw;
+    height: 26vh;
+    padding: 0px;
+    margin: 15px;
+    position: relative;
+}
+
+.div_img2 img {
+    overflow: hidden;
+
+}
+
+.opecity {
+    margin: 15px;
+    width: 31.4vw;
+    height: 27.2vh;
+    padding: 0px;
+    margin: 15px;
+    position: absolute;
+    background-color: #433f3fe0;
+    opacity: 0.8;
+}
+
+.div_img span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 20;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.item3 {
+    background-color: #f2f4f4;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 55px;
+}
+
+.para {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    color: #8e899a;
+}
+
+.botton button {
+    margin: 28px;
+    background-color: #ed7745;
+    padding: 14px 34px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.item3 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    height: 76vh;
+    padding-bottom: 50px;
+}
+
+.white {
+    background-color: white;
+    margin: 30px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text4 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    margin: 25px;
+    font-weight: 100;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+}
+
+.text4 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #8e899a;
+}
+
+.text4 {
+    background-color: #f2f4f4;
+    height: 50vh;
+
+}
+
+.item4_div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img4 {
+    margin: 32px;
+}
+
+.button4 button {
+    font-size: 15px;
+    background-color: #ed7745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.item5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.button5 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.item5_div .button5 button {
+    font-size: 15px;
+    background-color: #ed7745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.item5_div {
+    margin: 15px;
+}
+
+.text6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text6 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    margin: 25px;
+    font-weight: 100;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+}
+
+.text6 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #8e899a;
+}
+
+.text6 {
+    background-color: #f2f4f4;
+    height: 50vh;
+
+}
+
+.item6_div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img6 {
+    margin: 32px;
+    height: 55vh;
+}
+
+.button6 button {
+    font-size: 15px;
+    background-color: #ed7745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.item7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-bottom: 1px solid #8e899a63;
+}
+
+.button7 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.item7_div .button7 button {
+    font-size: 15px;
+    background-color: #ed7745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.item7_div {
+    margin: 10px;
+}
+
+.item7_div img {
+    margin: 10px;
+    height: 42vh;
+}
+
+.span7 {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.item8 {
+    margin-bottom: 150px;
+}
+
+.item8 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 31px;
+    margin: 25px;
+    font-weight: 100;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+.item8 .item8_img img {
+    height: 45vh;
+    margin: 12px;
+
+}
+
+.img8 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.item8_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item8_img button {
+    font-size: 15px;
+    background-color: #ed7745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+    margin: 24px;
+}
+
+.item9 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #8e899a63;
+
+}
+
+.item9 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 31px;
+    margin: 25px;
+    font-weight: 100;
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+.item9_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img9 img {
+    height: 43vh;
+    margin: 17px;
+}
+
+.footer_items {
+    display: flex;
+    justify-content: center;
+    margin: 65px 100px 0px 100px;
+}
+
+.foot_ul1 li {
+    list-style: none;
+}
+
+.foot_ul1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foot_li li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin: 5px 20px 5px 0px;
+}
+
+.uls {
+    display: flex;
+    justify-content: flex-start;
+    margin: 13px 45px 23px 0px;
+}
+
+.footer_item div {
+    margin: 12px 23px 23px 0px;
+}
+
+.foot_li {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.uls .ul1 {
+    margin: 0px 40px 1px 0px;
+}
+
+.h5 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pf {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 277px;
+
+}
+
+.pf_img22 img {
+    height: 40px;
+    max-width: 100%;
+}
+
+.pf_img2 {
+    display: flex;
+    margin: 12px;
+}
+
+.pf_img {
+    height: 25px;
+}
+
+.pf_uls ul {
+    display: flex;
+}
+
+.pf_uls ul li {
+    list-style: none;
+    margin: 12px;
+}
+
+.platforms>h2 {
+    margin: 12px;
+}
+
+.pf_img22 {
+    margin: 0px 12px;
+}
+
+.last_cont {
+    display: flex;
+    align-items: baseline;
+    padding: 12px 5px;
+}
+
+.headingl h5 {
+    margin: 0px 65px 0px 0px;
+}
+
+.paral li img {
+    height: 20px;
+    max-width: 100%;
+    margin: 0px 12px;
+}
+
+.paral li {
+    list-style: none;
+
+}
+
+.last_foot {
+    background-color: #2f4858;
+    color: white;
+    padding: 32px 255px;
+}
+
+.paral p {
+    font-size: 12px;
+    line-height: 25px;
+}
+.last_own{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para1{
+    margin: 0px 0px 0px 34px;
+}
+.para2{
+    margin: 0px 0px 0px 63px;
+}
+.para3{
+    margin: 0px 0px 0px 58px;
+}
+.para4{
+    margin: 0px 0px 0px 38px;
+}
+.para5{
+    margin: 0px 0px 0px 29px;
+}
+.para6{
+    margin: 0px 0px 0px 29px;
+}
+.para7{
+    margin: 0px 0px 0px 134px;
+}
+.para8{
+    margin: 0px 0px 0px 134px;
+}
+.SVG > img{
+    height: 73px;
+    position: fixed;
+    bottom: 45px;
+    right: 12px;
+    cursor: pointer;
+}
